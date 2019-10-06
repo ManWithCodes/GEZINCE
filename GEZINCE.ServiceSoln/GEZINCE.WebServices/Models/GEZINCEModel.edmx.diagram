@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cba6a8b99df0495d9775fcb3fdd61243" Name="Diagram1">
+        <EntityTypeShape EntityType="GEZINCEModel.Category" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GEZINCEModel.City" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GEZINCEModel.Place" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GEZINCEModel.PlaceImage" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="GEZINCEModel.FK__Place__CategoryI__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__Place__CategoryI__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__Place__CategoryI__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__Place__CityId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__Place__CityId__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__PlaceImag__Place__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__PlaceImag__Place__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="GEZINCEModel.FK__PlaceImag__Place__34C8D9D1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
